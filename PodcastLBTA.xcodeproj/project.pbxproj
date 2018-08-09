@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E474C3A211CE49100C68BB7 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E474C39211CE49100C68BB7 /* MainTabBarController.swift */; };
 		3E7FA96920C5859500982C6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7FA96820C5859500982C6F /* AppDelegate.swift */; };
 		3E7FA96B20C5859500982C6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7FA96A20C5859500982C6F /* ViewController.swift */; };
 		3E7FA96E20C5859500982C6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7FA96C20C5859500982C6F /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E474C39211CE49100C68BB7 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		3E7FA96520C5859500982C6F /* PodcastLBTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodcastLBTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E7FA96820C5859500982C6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E7FA96A20C5859500982C6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				3E7FA97420C5859F00982C6F /* LaunchScreen.storyboard */,
 				3E7FA97720C5859F00982C6F /* Info.plist */,
 				3E7FA96F20C5859500982C6F /* PodcastLBTA.xcdatamodeld */,
+				3E474C39211CE49100C68BB7 /* MainTabBarController.swift */,
 			);
 			path = PodcastLBTA;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				3E7FA97120C5859500982C6F /* PodcastLBTA.xcdatamodeld in Sources */,
 				3E7FA96B20C5859500982C6F /* ViewController.swift in Sources */,
+				3E474C3A211CE49100C68BB7 /* MainTabBarController.swift in Sources */,
 				3E7FA96920C5859500982C6F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
