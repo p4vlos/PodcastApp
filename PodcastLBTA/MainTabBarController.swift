@@ -13,17 +13,33 @@ class MainTabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .green
+        UINavigationBar.appearance().prefersLargeTitles = true
         
-        let favouritesController = ViewController()
-        favouritesController.tabBarItem.title = "Favourites"
-        
-        let searchNavController = UINavigationController(rootViewController: ViewController())
-        searchNavController.tabBarItem.title = "Search"
-        
+        tabBar.tintColor = .purple
+
+        setupViewControllers()
+    }
+    
+    
+    //MARK:- Setup Functions
+    
+    func setupViewControllers() {
         viewControllers = [
-            favouritesController
-            searchNavController
+            generationNavigationController(for: ViewController(), title: "Favourites", image: #imageLiteral(resourceName: "favorites")),
+            generationNavigationController(for: ViewController(), title: "Search", image: #imageLiteral(resourceName: "search")),
+            generationNavigationController(for: ViewController(), title: "Downloads", image: #imageLiteral(resourceName: "downloads"))
         ]
+    }
+    
+    //MARK:- Helper Functions
+    
+    fileprivate func generationNavigationController(for rootViewController: UIViewController, title: String, image: UIImage) -> UIViewController {
+        let navController = UINavigationController(rootViewController: rootViewController)
+
+        rootViewController.navigationItem.title = title
+        navController.tabBarItem.title = title
+        navController.tabBarItem.image = image
+        
+        return navController
     }
 }

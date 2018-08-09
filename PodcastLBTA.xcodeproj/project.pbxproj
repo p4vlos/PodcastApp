@@ -103,12 +103,12 @@
 			children = (
 				3E7FA96820C5859500982C6F /* AppDelegate.swift */,
 				3E7FA96A20C5859500982C6F /* ViewController.swift */,
+				3E474C39211CE49100C68BB7 /* MainTabBarController.swift */,
 				3E7FA96C20C5859500982C6F /* Main.storyboard */,
 				3E7FA97220C5859F00982C6F /* Assets.xcassets */,
 				3E7FA97420C5859F00982C6F /* LaunchScreen.storyboard */,
 				3E7FA97720C5859F00982C6F /* Info.plist */,
 				3E7FA96F20C5859500982C6F /* PodcastLBTA.xcdatamodeld */,
-				3E474C39211CE49100C68BB7 /* MainTabBarController.swift */,
 			);
 			path = PodcastLBTA;
 			sourceTree = "<group>";
