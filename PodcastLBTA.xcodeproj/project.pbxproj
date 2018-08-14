@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		01803113FD68888534C89021 /* Pods_PodcastLBTATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62C56BA785BF8FF2A53AF63 /* Pods_PodcastLBTATests.framework */; };
 		0E41CD82A49D6EEEC49C716F /* Pods_PodcastLBTAUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE193F206A0DD92B4CDA3E65 /* Pods_PodcastLBTAUITests.framework */; };
+		3E0779752122A04400F2D1D5 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0779742122A04400F2D1D5 /* APIService.swift */; };
 		3E474C3A211CE49100C68BB7 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E474C39211CE49100C68BB7 /* MainTabBarController.swift */; };
 		3E474C3D21205DA000C68BB7 /* PodcastsSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E474C3C21205DA000C68BB7 /* PodcastsSearchController.swift */; };
 		3E474C4021205FB500C68BB7 /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E474C3F21205FB500C68BB7 /* Podcast.swift */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		1E9977A182920126BF62B2D1 /* Pods-PodcastLBTA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodcastLBTA.release.xcconfig"; path = "Pods/Target Support Files/Pods-PodcastLBTA/Pods-PodcastLBTA.release.xcconfig"; sourceTree = "<group>"; };
+		3E0779742122A04400F2D1D5 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		3E474C39211CE49100C68BB7 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		3E474C3C21205DA000C68BB7 /* PodcastsSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastsSearchController.swift; sourceTree = "<group>"; };
 		3E474C3F21205FB500C68BB7 /* Podcast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Podcast.swift; sourceTree = "<group>"; };
@@ -97,6 +99,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E0779732122A02D00F2D1D5 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				3E0779742122A04400F2D1D5 /* APIService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		3E474C3B21205D7C00C68BB7 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +148,7 @@
 		3E7FA96720C5859500982C6F /* PodcastLBTA */ = {
 			isa = PBXGroup;
 			children = (
+				3E0779732122A02D00F2D1D5 /* API */,
 				3E474C3E21205FA300C68BB7 /* Models */,
 				3E474C3B21205D7C00C68BB7 /* Controllers */,
 				3E7FA96820C5859500982C6F /* AppDelegate.swift */,
@@ -404,6 +415,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E7FA97120C5859500982C6F /* PodcastLBTA.xcdatamodeld in Sources */,
+				3E0779752122A04400F2D1D5 /* APIService.swift in Sources */,
 				3E7FA96B20C5859500982C6F /* ViewController.swift in Sources */,
 				3E474C4021205FB500C68BB7 /* Podcast.swift in Sources */,
 				3E474C3A211CE49100C68BB7 /* MainTabBarController.swift in Sources */,
