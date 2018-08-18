@@ -12,11 +12,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="203" id="YfH-Oy-P73" customClass="PodcastCell" customModule="PodcastLBTA" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="477" height="203"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="132" id="YfH-Oy-P73" customClass="PodcastCell" customModule="PodcastLBTA" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="477" height="132"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YfH-Oy-P73" id="xDV-KT-QJC">
-                <rect key="frame" x="0.0" y="0.0" width="477" height="202.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="477" height="131.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appicon" translatesAutoresizingMaskIntoConstraints="NO" id="Pbo-CB-arn">
@@ -26,31 +26,36 @@
                             <constraint firstAttribute="height" constant="100" id="htF-vn-FvS"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Track Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RuE-6h-wJc">
-                        <rect key="frame" x="128" y="19" width="224" height="21"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cud-8D-MOQ">
-                        <rect key="frame" x="128" y="48" width="224" height="21"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Episode Count" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cIh-oK-Nro">
-                        <rect key="frame" x="128" y="77" width="224" height="21"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="e0O-qf-FNz">
+                        <rect key="frame" x="132" y="35.5" width="325" height="61"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Track Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RuE-6h-wJc">
+                                <rect key="frame" x="0.0" y="0.0" width="325" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cud-8D-MOQ">
+                                <rect key="frame" x="0.0" y="22.5" width="325" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Episode Count" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cIh-oK-Nro">
+                                <rect key="frame" x="0.0" y="44" width="325" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
                 </subviews>
                 <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="e0O-qf-FNz" secondAttribute="trailing" id="0fc-76-VNM"/>
                     <constraint firstItem="Pbo-CB-arn" firstAttribute="top" secondItem="xDV-KT-QJC" secondAttribute="topMargin" constant="8" id="Fgi-Vf-Aoc"/>
                     <constraint firstItem="Pbo-CB-arn" firstAttribute="leading" secondItem="xDV-KT-QJC" secondAttribute="leadingMargin" id="SqH-M9-K82"/>
+                    <constraint firstItem="e0O-qf-FNz" firstAttribute="centerY" secondItem="xDV-KT-QJC" secondAttribute="centerY" id="h5f-Y0-X9y"/>
+                    <constraint firstItem="e0O-qf-FNz" firstAttribute="leading" secondItem="Pbo-CB-arn" secondAttribute="trailing" constant="12" id="xLg-yS-r14"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
@@ -59,7 +64,7 @@
                 <outlet property="podcastImageView" destination="Pbo-CB-arn" id="GAw-Es-X5i"/>
                 <outlet property="trackNameLabel" destination="RuE-6h-wJc" id="tsR-1d-yi8"/>
             </connections>
-            <point key="canvasLocation" x="-55.5" y="70.5"/>
+            <point key="canvasLocation" x="-55.5" y="35"/>
         </tableViewCell>
     </objects>
     <resources>

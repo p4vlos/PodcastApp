@@ -14,6 +14,11 @@ class PodcastCell: UITableViewCell {
     @IBOutlet weak var artistNameLabel: UILabel!
     @IBOutlet weak var episodeCountLabel: UILabel!
     
-    var podcast: Podcast!
+    var podcast: Podcast! {
+        didSet {
+            trackNameLabel.text = podcast.trackName
+            artistNameLabel.text = podcast.artistName
+        }
+    }
     
 }
