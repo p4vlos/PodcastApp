@@ -7,15 +7,6 @@ target 'PodcastLBTA' do
 
   # Pods for PodcastLBTA
   pod 'Alamofire', '~> 4.7'
-
-  target 'PodcastLBTATests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'PodcastLBTAUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
+  pod 'SDWebImage', '~> 4.0'
 
 end
