@@ -21,9 +21,8 @@ class EpisodesController: UITableViewController {
     
     fileprivate func fetchEpisodes() {
         guard let feedUrl = podcast?.feedUrl else { return }
-        let secureFeedUrl = feedUrl.contains("https") ? feedUrl :
-            feedUrl.replacingOccurrences(of: "http", with: "https")
-        guard let url = URL(string: secureFeedUrl) else { return }
+//        let secureFeedUrl = feedUrl.contains("https") ? feedUrl : feedUrl.replacingOccurrences(of: "http", with: "https")
+        guard let url = URL(string: feedUrl) else { return }
         let parser = FeedParser(URL: url)
         parser.parseAsync { (result) in
             print("Successful parse feed:", result.isSuccess)
@@ -31,11 +30,18 @@ class EpisodesController: UITableViewController {
             // Associative enumeration values
             switch result {
             case let .rss(feed):
+                
+                let imageUrl = feed.iTunes?.iTunesImage?.attributes?.href
+                
                 var episodes = [Episode]() // blank Episode Array
                 feed.items?.forEach({ (feedItem) in
-                    let episode = Episode(feedItem: feedItem)
+                    var episode = Episode(feedItem: feedItem)
+                    
+                    if episode.imageUrl == nil {
+                        episode.imageUrl = imageUrl
+                    }
+                    
                     episodes.append(episode)
-                    print(feedItem.title ?? "")
                 })
                 self.episodes = episodes
                 DispatchQueue.main.async(execute: {
