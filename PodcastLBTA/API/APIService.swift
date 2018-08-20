@@ -8,6 +8,7 @@
 
 import Foundation
 import Alamofire
+import FeedKit
 
 class APIService {
     
@@ -15,6 +16,26 @@ class APIService {
     
     //singleton
     static let shared = APIService()
+    
+    
+    func fetchEpisodes(feedUrl: String, completionHanlder: @escaping ([Episode]) -> ()) {
+        //        let secureFeedUrl = feedUrl.contains("https") ? feedUrl : feedUrl.replacingOccurrences(of: "http", with: "https")
+        guard let url = URL(string: feedUrl) else { return }
+        let parser = FeedParser(URL: url)
+        parser.parseAsync { (result) in
+            print("Successful parse feed:", result.isSuccess)
+            
+            if let err = result.error {
+                print("Failed to parse XML feed:", err)
+                return
+            }
+            
+            guard let feed = result.rssFeed else { return }
+            
+            let episodes = feed.toEpisodes()
+            completionHanlder(episodes)
+        }
+    }
     
     
     func fetchPodcasts(searchText: String, completionHandler: @escaping ([Podcast]) -> ()) {

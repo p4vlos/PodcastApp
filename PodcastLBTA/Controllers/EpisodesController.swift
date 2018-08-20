@@ -21,38 +21,10 @@ class EpisodesController: UITableViewController {
     
     fileprivate func fetchEpisodes() {
         guard let feedUrl = podcast?.feedUrl else { return }
-//        let secureFeedUrl = feedUrl.contains("https") ? feedUrl : feedUrl.replacingOccurrences(of: "http", with: "https")
-        guard let url = URL(string: feedUrl) else { return }
-        let parser = FeedParser(URL: url)
-        parser.parseAsync { (result) in
-            print("Successful parse feed:", result.isSuccess)
-            
-            // Associative enumeration values
-            switch result {
-            case let .rss(feed):
-                
-                let imageUrl = feed.iTunes?.iTunesImage?.attributes?.href
-                
-                var episodes = [Episode]() // blank Episode Array
-                feed.items?.forEach({ (feedItem) in
-                    var episode = Episode(feedItem: feedItem)
-                    
-                    if episode.imageUrl == nil {
-                        episode.imageUrl = imageUrl
-                    }
-                    
-                    episodes.append(episode)
-                })
-                self.episodes = episodes
-                DispatchQueue.main.async(execute: {
-                    self.tableView.reloadData()
-                })
-                break
-            case let .failure(error):
-                print("Failed to parse feed:", error)
-                break
-            default:
-                print("Found a feed...")
+        APIService.shared.fetchEpisodes(feedUrl: feedUrl) { (episodes) in
+            self.episodes = episodes
+            DispatchQueue.main.async {
+                self.tableView.reloadData()
             }
         }
     }
@@ -74,6 +46,20 @@ class EpisodesController: UITableViewController {
     }
     
     //MARK:- UITableView
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let episode = self.episodes[indexPath.row]
+        print("Try to play episode", episode.title)
+        
+        let window = UIApplication.shared.keyWindow
+        
+        let playerDetailsView = Bundle.main.loadNibNamed("PlayerDetailsView", owner: self, options: nil)?.first as! UIView
+        
+        let redView = UIView()
+        redView.backgroundColor = .red
+        redView.frame = self.view.frame
+        window?.addSubview(redView)
+    }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return episodes.count
