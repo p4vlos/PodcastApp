@@ -23,6 +23,9 @@ class PodcastsSearchController: UITableViewController, UISearchBarDelegate {
         
         setupSearchBar()
         setupTableView()
+        
+        //Mibor tip to accelerate development
+        searchBar(searchController.searchBar, textDidChange: "Voong")
     }
     
     //MARK:- Setup Work
