@@ -23,6 +23,10 @@ class PlayerDetailsView: UIView {
         self.removeFromSuperview()
     }
     @IBOutlet weak var episodeImageView: UIImageView!
-    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var titleLabel: UILabel! {
+        didSet {
+            titleLabel.numberOfLines = 2
+        }
+    }
     
 }
