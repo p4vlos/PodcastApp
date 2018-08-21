@@ -13,6 +13,7 @@
 		3E474C3A211CE49100C68BB7 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E474C39211CE49100C68BB7 /* MainTabBarController.swift */; };
 		3E474C3D21205DA000C68BB7 /* PodcastsSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E474C3C21205DA000C68BB7 /* PodcastsSearchController.swift */; };
 		3E474C4021205FB500C68BB7 /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E474C3F21205FB500C68BB7 /* Podcast.swift */; };
+		3E5D7CA7212C4BD800FFD6EF /* PlayersDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D7CA6212C4BD800FFD6EF /* PlayersDetailsView.swift */; };
 		3E70DA9E2128C7AC00976A07 /* EpisodesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E70DA9D2128C7AC00976A07 /* EpisodesController.swift */; };
 		3E70DAA02129E3A600976A07 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E70DA9F2129E3A600976A07 /* Episode.swift */; };
 		3E70DAA32129E44A00976A07 /* EpisodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E70DAA12129E44A00976A07 /* EpisodeCell.swift */; };
@@ -56,6 +57,7 @@
 		3E474C39211CE49100C68BB7 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		3E474C3C21205DA000C68BB7 /* PodcastsSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastsSearchController.swift; sourceTree = "<group>"; };
 		3E474C3F21205FB500C68BB7 /* Podcast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Podcast.swift; sourceTree = "<group>"; };
+		3E5D7CA6212C4BD800FFD6EF /* PlayersDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersDetailsView.swift; sourceTree = "<group>"; };
 		3E70DA9D2128C7AC00976A07 /* EpisodesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesController.swift; sourceTree = "<group>"; };
 		3E70DA9F2129E3A600976A07 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
 		3E70DAA12129E44A00976A07 /* EpisodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeCell.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				3E70DAA12129E44A00976A07 /* EpisodeCell.swift */,
 				3E70DAA22129E44A00976A07 /* EpisodeCell.xib */,
 				3E70DAAA212A0E1700976A07 /* PlayerDetailsView.xib */,
+				3E5D7CA6212C4BD800FFD6EF /* PlayersDetailsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -422,6 +425,7 @@
 				3E70DAA02129E3A600976A07 /* Episode.swift in Sources */,
 				3E7FA96B20C5859500982C6F /* ViewController.swift in Sources */,
 				3E70DAA72129F45C00976A07 /* String.swift in Sources */,
+				3E5D7CA7212C4BD800FFD6EF /* PlayersDetailsView.swift in Sources */,
 				3E474C4021205FB500C68BB7 /* Podcast.swift in Sources */,
 				3E474C3A211CE49100C68BB7 /* MainTabBarController.swift in Sources */,
 				3E474C3D21205DA000C68BB7 /* PodcastsSearchController.swift in Sources */,

@@ -53,12 +53,11 @@ class EpisodesController: UITableViewController {
         
         let window = UIApplication.shared.keyWindow
         
-        let playerDetailsView = Bundle.main.loadNibNamed("PlayerDetailsView", owner: self, options: nil)?.first as! UIView
+        let playerDetailsView = Bundle.main.loadNibNamed("PlayerDetailsView", owner: self, options: nil)?.first as! PlayerDetailsView
+        playerDetailsView.episode = episode
         
-        let redView = UIView()
-        redView.backgroundColor = .red
-        redView.frame = self.view.frame
-        window?.addSubview(redView)
+        playerDetailsView.frame = self.view.frame
+        window?.addSubview(playerDetailsView)
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
