@@ -89,7 +89,6 @@ class PodcastsSearchController: UITableViewController, UISearchBarDelegate {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as! PodcastCell
         let podcast = self.podcasts[indexPath.row]
         cell.podcast = podcast
-    
         
         return cell
     }
