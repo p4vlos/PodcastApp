@@ -24,7 +24,7 @@ class PodcastsSearchController: UITableViewController, UISearchBarDelegate {
         setupSearchBar()
         setupTableView()
         
-        //Mibor tip to accelerate development
+        //Minor tip to accelerate development
         searchBar(searchController.searchBar, textDidChange: "Accidental")
     }
     
@@ -38,13 +38,17 @@ class PodcastsSearchController: UITableViewController, UISearchBarDelegate {
         searchController.searchBar.delegate = self
     }
     
+    var timer: Timer?
+    
+    
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        //later implement Alamofire to search iTunes API
-        print(1)
-        APIService.shared.fetchPodcasts(searchText: searchText) { (podcasts) in
-            self.podcasts = podcasts
-            self.tableView.reloadData()
-        }
+        timer?.invalidate()
+        timer = Timer.scheduledTimer(withTimeInterval: 0.5, repeats: false, block: { (timer) in
+            APIService.shared.fetchPodcasts(searchText: searchText) { (podcasts) in
+                self.podcasts = podcasts
+                self.tableView.reloadData()
+            }
+        })
     }
     
     
