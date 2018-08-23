@@ -17,6 +17,8 @@
 		3E5D7CA9212CBA9B00FFD6EF /* CMTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D7CA8212CBA9B00FFD6EF /* CMTime.swift */; };
 		3E5D7CAD212DA63000FFD6EF /* PlayerDetailsView+Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D7CAC212DA63000FFD6EF /* PlayerDetailsView+Gestures.swift */; };
 		3E5D7CAF212DB24900FFD6EF /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D7CAE212DB24900FFD6EF /* UIApplication.swift */; };
+		3E5D7CB1212EC29400FFD6EF /* FavouritesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D7CB0212EC29400FFD6EF /* FavouritesController.swift */; };
+		3E5D7CB3212EE4D900FFD6EF /* FavouritePodcastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D7CB2212EE4D900FFD6EF /* FavouritePodcastCell.swift */; };
 		3E70DA9E2128C7AC00976A07 /* EpisodesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E70DA9D2128C7AC00976A07 /* EpisodesController.swift */; };
 		3E70DAA02129E3A600976A07 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E70DA9F2129E3A600976A07 /* Episode.swift */; };
 		3E70DAA32129E44A00976A07 /* EpisodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E70DAA12129E44A00976A07 /* EpisodeCell.swift */; };
@@ -64,6 +66,8 @@
 		3E5D7CA8212CBA9B00FFD6EF /* CMTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMTime.swift; sourceTree = "<group>"; };
 		3E5D7CAC212DA63000FFD6EF /* PlayerDetailsView+Gestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayerDetailsView+Gestures.swift"; sourceTree = "<group>"; };
 		3E5D7CAE212DB24900FFD6EF /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		3E5D7CB0212EC29400FFD6EF /* FavouritesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesController.swift; sourceTree = "<group>"; };
+		3E5D7CB2212EE4D900FFD6EF /* FavouritePodcastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritePodcastCell.swift; sourceTree = "<group>"; };
 		3E70DA9D2128C7AC00976A07 /* EpisodesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesController.swift; sourceTree = "<group>"; };
 		3E70DA9F2129E3A600976A07 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
 		3E70DAA12129E44A00976A07 /* EpisodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeCell.swift; sourceTree = "<group>"; };
@@ -135,6 +139,7 @@
 				3E70DAAA212A0E1700976A07 /* PlayerDetailsView.xib */,
 				3E5D7CA6212C4BD800FFD6EF /* PlayersDetailsView.swift */,
 				3E5D7CAC212DA63000FFD6EF /* PlayerDetailsView+Gestures.swift */,
+				3E5D7CB2212EE4D900FFD6EF /* FavouritePodcastCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 			children = (
 				3E474C3C21205DA000C68BB7 /* PodcastsSearchController.swift */,
 				3E70DA9D2128C7AC00976A07 /* EpisodesController.swift */,
+				3E5D7CB0212EC29400FFD6EF /* FavouritesController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -438,6 +444,7 @@
 				3E70DAA32129E44A00976A07 /* EpisodeCell.swift in Sources */,
 				3E70DAA02129E3A600976A07 /* Episode.swift in Sources */,
 				3E7FA96B20C5859500982C6F /* ViewController.swift in Sources */,
+				3E5D7CB3212EE4D900FFD6EF /* FavouritePodcastCell.swift in Sources */,
 				3E70DAA72129F45C00976A07 /* String.swift in Sources */,
 				3E5D7CA7212C4BD800FFD6EF /* PlayersDetailsView.swift in Sources */,
 				3E474C4021205FB500C68BB7 /* Podcast.swift in Sources */,
@@ -446,6 +453,7 @@
 				3E474C3D21205DA000C68BB7 /* PodcastsSearchController.swift in Sources */,
 				3E5D7CAD212DA63000FFD6EF /* PlayerDetailsView+Gestures.swift in Sources */,
 				3E7FA96920C5859500982C6F /* AppDelegate.swift in Sources */,
+				3E5D7CB1212EC29400FFD6EF /* FavouritesController.swift in Sources */,
 				3E5D7CA9212CBA9B00FFD6EF /* CMTime.swift in Sources */,
 				3E70DA9E2128C7AC00976A07 /* EpisodesController.swift in Sources */,
 			);
