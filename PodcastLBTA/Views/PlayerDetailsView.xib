@@ -169,7 +169,7 @@
                                         <constraint firstAttribute="width" constant="54" id="oa0-ES-jjs"/>
                                     </constraints>
                                     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <state key="normal" image="play"/>
+                                    <state key="normal" image="pause"/>
                                 </button>
                                 <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qni-ac-Fy0">
                                     <rect key="frame" x="195.66666666666666" y="0.0" width="38.666666666666657" height="172"/>
@@ -261,7 +261,6 @@
         <image name="max_volume" width="32" height="32"/>
         <image name="muted_volume" width="32" height="32"/>
         <image name="pause" width="57" height="57"/>
-        <image name="play" width="59" height="59"/>
         <image name="rewind15" width="45" height="45"/>
     </resources>
 </document>
