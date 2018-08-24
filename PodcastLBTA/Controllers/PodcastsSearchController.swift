@@ -25,7 +25,7 @@ class PodcastsSearchController: UITableViewController, UISearchBarDelegate {
         setupTableView()
         
         //Minor tip to accelerate development
-//        searchBar(searchController.searchBar, textDidChange: "Accidental")
+        searchBar(searchController.searchBar, textDidChange: "Accidental")
     }
     
     //MARK:- Setup Work
