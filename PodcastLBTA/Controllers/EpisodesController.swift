@@ -52,7 +52,6 @@ class EpisodesController: UITableViewController {
         } else {
             navigationItem.rightBarButtonItems = [
                 UIBarButtonItem(title: "Favourite", style: .plain, target: self, action: #selector(handleSaveFavourite)),
-//                UIBarButtonItem(title: "Fetch", style: .plain, target: self, action: #selector(handleFetchPodcasts))
             ]
         }
     }
@@ -93,6 +92,16 @@ class EpisodesController: UITableViewController {
     }
     
     //MARK:- UITableView
+    
+    override func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
+        let downloadAction = UITableViewRowAction(style: .normal, title: "Downlaod") { (_, _) in
+            print("Downloading episdoe")
+            let episode = self.episodes[indexPath.row]
+            UserDefaults.standard.downloadEpisode(episode: episode)
+            
+        }
+        return [downloadAction]
+    }
     
     override func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
         let activityIndicatorView = UIActivityIndicatorView(activityIndicatorStyle: .whiteLarge)
