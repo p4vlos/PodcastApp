@@ -50,8 +50,19 @@
                             </label>
                         </subviews>
                     </stackView>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hk1-iv-FFC">
+                        <rect key="frame" x="48" y="58" width="77" height="34.5"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <size key="shadowOffset" width="0.0" height="1"/>
+                    </label>
                 </subviews>
                 <constraints>
+                    <constraint firstItem="Hk1-iv-FFC" firstAttribute="centerY" secondItem="Gdp-2N-OD3" secondAttribute="centerY" id="7Fu-Cb-j7H"/>
+                    <constraint firstItem="Hk1-iv-FFC" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="80M-Ir-Tfl"/>
+                    <constraint firstItem="Hk1-iv-FFC" firstAttribute="centerX" secondItem="Gdp-2N-OD3" secondAttribute="centerX" id="RUd-hx-keA"/>
                     <constraint firstItem="YjK-Vl-Mj0" firstAttribute="leading" secondItem="Gdp-2N-OD3" secondAttribute="trailing" constant="16" id="e22-6a-TSB"/>
                     <constraint firstItem="YjK-Vl-Mj0" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="rgF-iy-AbR"/>
                     <constraint firstItem="Gdp-2N-OD3" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="s0S-Ue-mr9"/>
@@ -63,6 +74,7 @@
             <connections>
                 <outlet property="descriptionLabel" destination="xaN-1o-Kzj" id="CeG-m6-5np"/>
                 <outlet property="episodeImageView" destination="Gdp-2N-OD3" id="smc-WF-8re"/>
+                <outlet property="progressLabel" destination="Hk1-iv-FFC" id="Ktx-Kc-kd5"/>
                 <outlet property="pubDateLabel" destination="c0E-vG-fOh" id="g0a-nZ-BDm"/>
                 <outlet property="titleLabel" destination="ggz-cz-9ef" id="3Rd-MN-8lh"/>
             </connections>
