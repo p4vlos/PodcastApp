@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d0553292-5244-4785-ab4b-0f4f6e42cbbd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PodcastLBTA.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/PodcastLBTA.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PodcastLBTA.xcworkspace/xcuserdata/pavlosnicolaou.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/PodcastLBTA.xcworkspace/xcuserdata/pavlosnicolaou.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PodcastLBTA/API/APIService.swift" beforeDir="false" afterPath="$PROJECT_DIR$/PodcastLBTA/API/APIService.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PodcastLBTA/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/PodcastLBTA/AppDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PodcastLBTA/Controllers/EpisodesController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/PodcastLBTA/Controllers/EpisodesController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PodcastLBTA/Controllers/FavouritesController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/PodcastLBTA/Controllers/FavouritesController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PodcastLBTA/Controllers/PodcastsSearchController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/PodcastLBTA/Controllers/PodcastsSearchController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PodcastLBTA/MainTabBarController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/PodcastLBTA/MainTabBarController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PodcastLBTA/Views/PlayersDetailsView.swift" beforeDir="false" afterPath="$PROJECT_DIR$/PodcastLBTA/Views/PlayersDetailsView.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/pavlosnicolaou.xcuserdatad/xcschemes/Alamofire.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/pavlosnicolaou.xcuserdatad/xcschemes/Alamofire.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/pavlosnicolaou.xcuserdatad/xcschemes/FeedKit.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/pavlosnicolaou.xcuserdatad/xcschemes/FeedKit.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/pavlosnicolaou.xcuserdatad/xcschemes/Pods-PodcastLBTA.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/pavlosnicolaou.xcuserdatad/xcschemes/Pods-PodcastLBTA.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/pavlosnicolaou.xcuserdatad/xcschemes/SDWebImage.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/pavlosnicolaou.xcuserdatad/xcschemes/SDWebImage.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/pavlosnicolaou.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/pavlosnicolaou.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_0123c1da463807cfa69b9a5762d8da90f4b162df" />
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1310" />
+    <option name="y" value="-990" />
+    <option name="width" value="1118" />
+    <option name="height" value="711" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Cidr.FilesView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="PodcastLBTA" type="1d218c8b:XcodeProjectNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="PodcastLBTA" type="1d218c8b:XcodeProjectNode" />
+              <item name="PodcastLBTA" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="PodcastLBTA" type="1d218c8b:XcodeProjectNode" />
+              <item name="PodcastLBTA" type="fcab9f18:XcodeViewNode" />
+              <item name="API" type="fcab9f18:XcodeViewNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://github.com/beryu/SiriShortcutsSample.git" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="PodcastLBTA" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PodcastLBTA" TARGET_NAME="PodcastLBTA" CONFIG_NAME="Debug" SCHEME_NAME="PodcastLBTA" IS_LOCATION_SIMULATION_ALLOWED="true" RUN_TARGET_PROJECT_NAME="PodcastLBTA" RUN_TARGET_NAME="PodcastLBTA" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <embedded_app_extension_list />
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0553292-5244-4785-ab4b-0f4f6e42cbbd" name="Default Changelist" comment="" />
+      <created>1552662194344</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552662194344</updated>
+      <workItem from="1552662196756" duration="324000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="324000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1310" y="-990" width="1118" height="711" extended-state="0" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" weight="0.32956383" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32956383" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990307" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="https://github.com/beryu/SiriShortcutsSample.git">
+      <provider selected="true" editor-type-id="httpFileEditor" />
+    </entry>
+  </component>
+</project>
