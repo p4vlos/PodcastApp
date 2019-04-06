@@ -57,7 +57,6 @@ class EpisodesController: UITableViewController {
 //                UIBarButtonItem(title: "Fetch", style: .plain, target: self, action: #selector(handleFetchSavedPodcasts))
             ]
         }
-        
     }
     
     @objc fileprivate func handleFetchSavedPodcasts() {
@@ -146,9 +145,4 @@ class EpisodesController: UITableViewController {
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 134
     }
-    
-    
-    
-    
-    
 }

@@ -39,6 +39,7 @@ class APIService {
             
             
             }.response { (resp) in
+                print("Destination URL:")
                 print(resp.destinationURL?.absoluteString ?? "")
                 
                 let episodeDownloadComplete = EpisodeDownloadCompleteTuple(fileUrl: resp.destinationURL?.absoluteString ?? "", episode.title)

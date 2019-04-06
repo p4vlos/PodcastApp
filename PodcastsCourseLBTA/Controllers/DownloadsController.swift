@@ -29,7 +29,6 @@ class DownloadsController: UITableViewController {
     @objc fileprivate func handleDownloadComplete(notification: Notification) {
         guard let episodeDownloadComplete = notification.object as? APIService.EpisodeDownloadCompleteTuple else { return }
         
-        
         guard let index = self.episodes.firstIndex(where: { $0.title == episodeDownloadComplete.episodeTitle }) else { return }
         
         self.episodes[index].fileUrl = episodeDownloadComplete.fileUrl
